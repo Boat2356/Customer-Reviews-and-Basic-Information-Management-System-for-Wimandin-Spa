@@ -1,0 +1,103 @@
+.profile_detail{
+    border: 1px solid;
+}
+
+.profile-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/* aaaaaaaaaaaaaaaaaaa*/
+
+.logout-btn{
+  background-color: #716564;
+  border: none;
+  padding: .5rem 1.5rem;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* ทำให้ main มีความสูงเท่ากับ viewport height */
+}
+
+.profile-section {
+  width: 50%;
+  background-color: #ffffff;
+}
+
+.profile-info {
+  /* padding: 10px; */
+  width: 100%; /* ปรับขนาดรูปตามที่ต้องการ */
+  height: 600px; /* ปรับขนาดรูปตามที่ต้องการ */
+  border: 2px solid #716564; /* เพิ่มเส้นขอบ */
+  /* border-radius: 10px; ทำให้มีขอบมนเล็กน้อย */
+  line-height: 3; /* เพิ่ม line-height สำหรับเพิ่มระยะห่างระหว่างบรรทัด */
+}
+
+
+.profile-img {/* ปรับขนาดความกว้างตามที่ต้องการ */
+  height: auto; /* รักษาสัดส่วนของรูป */
+  border-radius: 50%; /* ทำให้มีรูปร่างวงกลม */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+
+.bold-text {
+  font-weight: bold;
+}
+
+
+.bold-text{
+  margin-top: 0px;
+  /* font-size: 2.5ch; */
+}
+
+a.ch-pass,a.editja {
+  color: #716564; /* เปลี่ยนสีตัวหนังสือเป็นสีแดง */
+  /* สามารถใส่ค่าสีแบบ RGB, Hex, หรือชื่อสีได้ตามต้องการ */
+}
+
+.vip {
+  font-size: 20px; /* ปรับขนาดตัวหนังสือให้ใหญ่ขึ้น */
+  /* สามารถปรับค่าได้ตามต้องการ */
+}
+
+
+.pen-img {
+  width: 35px; /* ปรับขนาดความกว้างตามที่ต้องการ */
+  height: 35px; /* รักษาสัดส่วนของรูป */
+   /* ทำให้มีรูปร่างวงกลม */
+  margin-top: .7rem;
+   /* ระยะห่างระหว่างรูปและข้อความ */
+  /* margin-left: 185px;
+  margin-top: 15px; */
+}
+
+
+body {
+  background: linear-gradient(to bottom, #EDE7E6 50%, #ffffff 50%);
+  /* background-size: 2px 100%; ขนาดของเส้นขั้น (2px ความกว้าง x 100% ความสูง) */
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  color: #333;
+}
+
+/* ปรับขนาดสำหรับแสดงในแท็ปเล็ต */
+@media screen and (max-width: 992px) {
+  main {
+    height: 90vh; 
+  }
+
+  .profile-section{
+    width: 100%;
+  }
+
+}
+
+

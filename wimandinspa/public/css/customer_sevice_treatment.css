@@ -1,0 +1,50 @@
+/* .treatment-container{
+    width: 100%;
+    margin: 0 auto;
+} */
+
+.title {
+    font: 700 60px 'Inria Serif', sans-serif; 
+    color: #000;
+}
+
+.treatment-section {
+    font: 400 40px 'Inria Serif', sans-serif;
+    color: #000;
+}
+
+.treatment-item {
+    
+    background: #f5f5f5;
+    padding: 1rem ;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, .25);
+    
+    margin: 2rem 5rem 1rem 1rem;
+}
+
+.treatment-item h4 {
+    font-weight: 700;
+    color: #000;
+}
+
+.treatment-item p {
+    font: 400 16px 'Inria Serif', sans-serif;
+    color: #000;
+    margin-top: 37px;
+}
+
+.treatment-item:nth-of-type(2n+0) {
+    background: #C9A26B;
+  }
+
+@media screen and (max-width: 992px) {
+    .treatment-item {
+        margin: 2rem;
+    }
+  }
+
+  @media screen and (max-width: 576px) {
+    .treatment-item {
+        margin: .3rem;
+    }
+  }

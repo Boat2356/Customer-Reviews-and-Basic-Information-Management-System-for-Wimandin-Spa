@@ -1,0 +1,91 @@
+
+.review-section {
+    display: flex;
+    flex-direction: column;
+    padding: 33px 60px;
+    /* background-color: #fff; */
+    border: 2px solid rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    width: 100%;
+}
+
+/* .review-comment {
+    background-color: #e5e5e5;
+    padding: 32px;
+    border-radius: 5px;
+    color: #7d7d7d;
+    font-size: 10px;
+} */
+.action-buttons {
+    display: flex;
+    justify-content: space-between;
+    /* gap: 20px; */
+    margin-top: 25px;
+}
+
+
+.reviewer-avatar{
+    width: 40px; /* ปรับขนาดรูปตามที่คุณต้องการ */
+  height: 40px; /* ปรับขนาดรูปตามที่คุณต้องการ */
+  border-radius: 50%; /* ทำให้มีรูปร่างวงกลม */
+  margin-right: 10px; /* ระยะห่างระหว่างรูปและข้อความ */
+}
+
+/* ดหกดห */
+
+.review-comment textarea {
+    background-color: #E5E5E5;
+     /* สีเทา */
+    width: 100%;
+    padding: 8px;
+    margin-top: 8px;
+    border: none;
+    border-radius: 4px;
+    box-sizing: border-box;
+
+    /* ลบกรอบสีเทาที่ซ้อนอยู่ */
+    border: 0;
+    outline: none; /* ลบเส้นขอบ (outline) */
+}
+
+
+.upload-link {
+    display: inline-block;
+    padding: 8px 12px;
+    /* background-color: #3498db; */
+    color: #000000;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 4px;
+    /* border: 1px solid #2980b9; */
+}
+
+.cancel-btn {
+    margin-right: 50px; /* ระยะห่างด้านขวาของปุ่มยกเลิก */
+    color: #716564;
+    text-decoration: none;
+    padding-top: .4rem;
+}
+
+.cancel-btn:hover{
+    color: #000;
+}
+
+a .submit-btn {
+    color: #fff; /* เปลี่ยนสีตัวหนังสือเป็นสีแดง */
+    /* สามารถใส่ค่าสีแบบ RGB, Hex, หรือชื่อสีได้ตามต้องการ */
+    background-color: #716564;
+    border: none;
+    padding: .5rem 1.5rem;
+  }
+
+/* .review-section .fw-bold {
+    font-size: 2.5ch; 
+} */
+
+@media screen and (max-width: 992px) {
+    .action-buttons{
+        flex-direction: column;
+        gap: 2rem;
+    }
+  }

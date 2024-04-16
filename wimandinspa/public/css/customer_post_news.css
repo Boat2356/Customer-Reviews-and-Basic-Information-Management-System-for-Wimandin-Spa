@@ -1,0 +1,78 @@
+.profile img {
+  width: 40px;
+}
+
+/* crop img */
+.news-img {
+  width: 95%;
+  height: 500px;
+  object-fit: cover;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 15px;
+}
+.news_con{
+  box-shadow: 1px 1px 4px rgb(0, 0, 0,0.5);
+}
+
+.news-card:hover{
+opacity: 0.8;
+cursor: pointer;
+transition: .2s linear;
+transform: scale(1.01);
+}
+
+/* pop up */
+
+.popup-news {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.5);
+  height: 100%;
+  width: 100%;
+  z-index: 100;
+  display: none;
+}
+
+.popup-news .news-card-popup {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 60%;
+  object-fit: cover;
+  background-color: #fff;
+  box-shadow: 1px 1px 4px rgb(0, 0, 0,0.5);
+  padding: 10px;
+}
+
+.popup-news .news-image-popup{
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  padding-bottom: 15px;
+}
+
+.popup-news .news-text{
+  padding-bottom: 20px;
+  text-align: start;
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #fff;
+  font-size: 50px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: rgb(0, 0, 0, 0.4);
+  text-decoration: none;
+  cursor: pointer;
+}
