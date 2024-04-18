@@ -148,23 +148,121 @@ Therefore, our system is designed to deal with Wimandin Spa, capable of storing 
 |Name| VARCHAR(255)| ชื่อห้อง|
 |description| VARCHAR(255)| รายละเอียด|
 
-## Web design
+Web design
 1. For customers (Both anonymous and who have already logged in.)
-- Home Page
-- Service Page is a dropdown composed of the Treatment Page and the Room Page
-- Post Page is a dropdown composed of the Promotion Page and the News Page
-- FAQ Page
-- Review Page
-- Login Page is divided into the Sign-in Page, Registration Page, and Forgot Password Page.
 
-2. For employees or administrators
-- Dashboard Page
-- Admin Profile page
-- All post types Page
-- All post page
-- All treatment types page
-- All treatment page
-- All rooms page
-- All reviews page
-- All frequently asked questions (faq) page
-- All contact page
+## Home Page
+
+<p align="center">
+  <img width="1200" height="455" src="https://github.com/Boat2356/Customer-Reviews-and-Basic-Information-Management-System-for-Wimandin-Spa/assets/140761543/94bc540c-8d7a-48cc-8c59-62a07a10f6a8">
+</p>
+<p align="center">
+  <img width="1200" height="455" src="https://github.com/Boat2356/Customer-Reviews-and-Basic-Information-Management-System-for-Wimandin-Spa/assets/140761543/0c2a5f54-a7b5-4373-9d26-cb156f9dca19">
+</p>
+<p align="center">
+  <img width="1200" height="455" src="https://github.com/Boat2356/Customer-Reviews-and-Basic-Information-Management-System-for-Wimandin-Spa/assets/140761543/a7eb3454-7c7b-4f83-b5ef-6d5cc030cb98">
+</p>
+<p align="center">
+  <img width="1200" height="455" src="https://github.com/Boat2356/Customer-Reviews-and-Basic-Information-Management-System-for-Wimandin-Spa/assets/140761543/816113b5-3c62-4f3a-bf73-8e8b04ca58f6">
+</p>
+  
+## Treatment Page
+  
+<p align="center">
+  <img width="1200" height="455" src="https://github.com/Boat2356/Customer-Reviews-and-Basic-Information-Management-System-for-Wimandin-Spa/assets/140761543/e0401058-fc4b-43b1-b241-fa7c61481cf9">
+</p>
+
+## Room Page
+
+<p align="center">
+  <img width="1200" height="455" src="https://github.com/Boat2356/Customer-Reviews-and-Basic-Information-Management-System-for-Wimandin-Spa/assets/140761543/1e6a4693-e6c7-4d96-8c6a-ea93c2bf504e">
+</p>
+
+## Promotion Page (Preview version)
+
+<p align="center">
+  <img width="1200" height="455" src="https://github.com/Boat2356/Customer-Reviews-and-Basic-Information-Management-System-for-Wimandin-Spa/assets/140761543/a05db92d-103d-476c-857f-995294c592b0">
+</p>
+
+## Promotion Page (Detail version)
+
+<p align="center">
+  <img width="1200" height="455" src="https://github.com/Boat2356/Customer-Reviews-and-Basic-Information-Management-System-for-Wimandin-Spa/assets/140761543/ed644b34-fa71-4fd7-ba6d-7d12a4bfe39c">
+</p> 
+  
+## News Page (Preview version)
+
+<p align="center">
+  <img width="1200" height="455" src="https://github.com/Boat2356/Customer-Reviews-and-Basic-Information-Management-System-for-Wimandin-Spa/assets/140761543/0d0bbe6a-ed1c-4dc7-9734-5a0a1a18b6a7">
+</p>
+
+## News Page (Detail version)
+
+<p align="center">
+  <img width="1200" height="455" src="https://github.com/Boat2356/Customer-Reviews-and-Basic-Information-Management-System-for-Wimandin-Spa/assets/140761543/4e658b42-a633-481b-a27b-414f4715246e">
+</p> 
+
+## Article Page (Preview version)
+
+<p align="center">
+  <img width="1200" height="455" src="https://github.com/Boat2356/Customer-Reviews-and-Basic-Information-Management-System-for-Wimandin-Spa/assets/140761543/e9c0914c-3ccc-4aa9-88fb-5cd43eaff385">
+</p>
+
+## Article Page (Detail version)
+
+<p align="center">
+  <img width="1200" height="455" src="https://github.com/Boat2356/Customer-Reviews-and-Basic-Information-Management-System-for-Wimandin-Spa/assets/140761543/746deb5c-a3a3-4221-a8d8-5871f84d6d7a">
+</p> 
+
+## FAQ Page
+
+<p align="center">
+  <img width="1200" height="455" src="https://github.com/Boat2356/Customer-Reviews-and-Basic-Information-Management-System-for-Wimandin-Spa/assets/140761543/fe14dd3e-10a4-4e8f-9888-0deb199c0045">
+</p>
+
+## FAQ Page (Contact)
+<p align="center">
+  <img width="1200" height="455" src="https://github.com/Boat2356/Customer-Reviews-and-Basic-Information-Management-System-for-Wimandin-Spa/assets/140761543/5b248d89-e529-4264-99b6-dcb3df9850b0">
+</p> 
+
+
+## Review Page
+
+<p align="center">
+  <img width="1200" height="455" src="https://github.com/Boat2356/Customer-Reviews-and-Basic-Information-Management-System-for-Wimandin-Spa/assets/140761543/d171a26d-3d14-4862-914d-b263ad96d3ce">
+</p>
+
+## Write Review Form Page
+<p align="center">
+  <img width="1200" height="455" src="https://github.com/Boat2356/Customer-Reviews-and-Basic-Information-Management-System-for-Wimandin-Spa/assets/140761543/3ec4a975-8118-4ea3-b58a-78a9855402d2">
+</p> 
+
+## Sign-in Page
+
+<p align="center">
+  <img width="1200" height="455" src="https://github.com/Boat2356/Customer-Reviews-and-Basic-Information-Management-System-for-Wimandin-Spa/assets/140761543/8453678f-15c2-4a5e-a3f6-854acac53539">
+</p> 
+
+## Registration Page
+
+<p align="center">
+  <img width="1200" height="455" src="https://github.com/Boat2356/Customer-Reviews-and-Basic-Information-Management-System-for-Wimandin-Spa/assets/140761543/3f3b288a-023d-4786-9dad-7b7d29ede7c0">
+</p> 
+
+## Forgot Password Page
+
+<p align="center">
+  <img width="1200" height="455" src="https://github.com/Boat2356/Customer-Reviews-and-Basic-Information-Management-System-for-Wimandin-Spa/assets/140761543/fa7eefce-91e1-4a60-87bf-5acfef417df4)">
+</p> 
+
+2. For employees and administrators
+## Dashboard Page
+## Admin Profile page
+## All post types Page
+## All post page
+## All treatment types page
+## All treatment page
+## All rooms page
+## All reviews page
+## All frequently asked questions (faq) page
+## All contact page
